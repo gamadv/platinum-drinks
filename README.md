@@ -31,6 +31,8 @@
 
 The **Platinum Drinks** is the best place to learn about your favorites drinks :D
 
+You can look on: https://platinum-drinks.netlify.app/
+
 Presently this app only works with filter categories, other features will be implemented soon.
 
 **Technically we have one page with Drink Categories that once one selected must bring all drinks that it have, and when clicked it must be moved to your details page.
@@ -55,6 +57,8 @@ Application made based on challenge test requested by [Ubistart](https://ubistar
 
 # :black_nib: Getting Started
 
+If you want to run this app on your dev workspace, look that:
+
 You must have installed:
 
 1. **Node.js**. <i>[Here](https://nodejs.org/en/)</i>
@@ -75,6 +79,16 @@ Downloading dependencies:
   # or
 
   $ yarn
+```
+
+:fire: Once dependencies download, just run your start command :
+
+```bash
+  $ npm start
+
+  # or
+
+  $ yarn start
 ```
 
 Expected behaviour:
