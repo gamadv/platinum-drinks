@@ -1,46 +1,107 @@
-# Getting Started with Create React App
+<h1 align=center> Platinum Drinks 🍸 </h1> 
+<p align=center>
+  <img src="readme-assets/banner.png" width=700 />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h1 align="center">  
+    <a href="https://www.typescriptlang.org/" target="_blank"  rel="noopener noreferrer" >
+      <img src="https://badgen.net/badge/-/TypeScript?icon=typescript&label&labelColor=blue&color=555555">
+    </a>
+    <a href="https://pt-br.reactjs.org/docs/getting-started.html" target="_blank"  rel="noopener noreferrer">
+      <img src="https://badges.aleen42.com/src/react.svg">
+    </a>
+    <a href="https://code.visualstudio.com/" target="_blank"  rel="noopener noreferrer">
+      <img src="https://badges.aleen42.com/src/visual_studio_code.svg">
+    </a>
+     <a href="https://github.com/styled-components">
+      <img src="https://img.shields.io/badge/styles-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components">
+    </a>
+   </h1>
 
-## Available Scripts
+<h6 align=center>
+  <a href="#notebook-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#hammer-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#black_nib-getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#hammer-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bangbang-tech-pendencies">Tech Pendencies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#heavy_plus_sign-upgrades">Upgrades</a>
+</h6>
 
-In the project directory, you can run:
+# :notebook: About
 
-### `yarn start`
+The **Platinum Drinks** is the best place to learn about your favorites drinks :D
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Presently this app only works with filter categories, other features will be implemented soon.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Technically we have one page with Drink Categories that once one selected must bring all drinks that it have, and when clicked it must be moved to your details page.
 
-### `yarn test`
+Application made based on challenge test requested by [Ubistart](https://ubistart.com/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div align="center">
+    <img src="readme-assets/desk.png" width="600">
+    <img src="readme-assets/mobile.png" width="320" height="568">
+</div>
 
-### `yarn build`
+# :hammer: Technologies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 📃 Dependencies: -> <i><kbd> [package.json](./package.json) </kbd></i>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [x] <b>[Typescript](https://www.typescriptlang.org/):</b> <i>It's written in TypeScript</i>
+- [x] <b>[Axios](https://github.com/axios/axios):</b> <i>Best lib to work with Promise-based HTTP client </i>
+- [x] <b>[Styled-components](https://styled-components.com/):</b> <i>Personal choice for application styles</i>
+- [x] <b>[Date FNS](https://date-fns.org/):</b> <i>Beste date utility library </i>
+- [x] <b>[TheCockTailDB](https://www.thecocktaildb.com/api.php):</b> <i>Public API used to fetch data </i>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+# :black_nib: Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You must have installed:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Node.js**. <i>[Here](https://nodejs.org/en/)</i>
+2. **GIT**. <i>[Here](https://git-scm.com)</i>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+After that, go to the terminal and execute those steps:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+  $ git clone https://github.com/gamadv/platinum-drinks.git
+  cd platinum-drinks
+```
 
-## Learn More
+Downloading dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  $ npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  # or
+
+  $ yarn
+```
+
+Expected behaviour:
+<img src="readme-assets/platinum-drinks.gif" alt="vscode tips"/>
+
+# :bangbang: Tech Pendencies:
+
+Some features didn't have implemented, so this app are being missing those points:
+- [ ] Context API feature;
+- [ ] Some block codes missing typings;
+- [ ] Search drinks by name
+- [ ] Bring on ingredients images
+
+
+# :heavy_plus_sign: Upgrades:
+
+Some features are available to upgrade this app, those are:
+
+- [ ] Fix some points Responsive Layout;
+- [ ] Use localstorage for data local persistence;
+- [ ] Create test files for best dev experience
+
+<p align=center> 
+  <h6 align=center>💙 Made by</h6> 
+  <h2 align=center>
+  <a href="https://www.linkedin.com/in/gama-leal">  Moacir Gama
+    <img src="https://image.flaticon.com/icons/png/512/174/174857.png" width=20>
+  </a>
+  </h2>
+</p>
